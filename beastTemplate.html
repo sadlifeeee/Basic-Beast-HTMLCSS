@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Template</title>
+        <link rel="stylesheet" type="text/css" href="beastTemplate.css">
+    </head>
+
+    <body>
+        <div id = "sidebar">
+
+            <div id = "sideTop">
+                <span id="titleSide">Basic Beasts</span>
+            </div>
+            
+            <div id ="sideDown">
+                <span class="navigateSide">Beast Template</span>
+                <span class="navigateSide">Mint Beast</span>
+                <span class="navigateSide">Mint Tokens</span>
+                <span class="navigateSide">Minted NFTs</span>
+            </div>
+            
+        </div>
+
+        <div id = "dashboard">
+            
+            <div id = "topWrapper">
+                <span id = "balance">FUSD balance: 100</span>
+
+                <div id = "addressWrapper" class = "cutUpper">
+                    <span id = "address" class = "cutLower">0x0....................e</span>
+                </div>
+            </div>
+
+            <div id = "titleWrapper">
+                <span id = "titleOne">Beast Template</span>
+                <span id = "titleTwo">Admin Dashboard</span>
+            </div>
+
+            <div id = "contentWrapper">
+
+                <div id = "selectionWrapper">
+                    <div id = "boxOne">Overview</div>
+                    <div id = "boxTwo">Create Beast Template</div>
+                </div>
+
+                <div id = "mainContent">
+                    <div id = "contentTitleWrapper">
+                        <span id = "contentTitle">Overview of created Beast Template(s)</span>
+                        <span id = "total">Total: 2</span>
+                    </div>
+
+                    <!-- Sorting not done for this table -->
+                    <table id = "mainTable">
+                        <tr class = "topRow">
+                            <th>Date and time <span class = "arrow down"></span></th>
+                            <th>Name <span class="arrow down"></span></th>
+                            <th>beastTemplateID <span class="arrow down"></span></th>
+                            <th>Dex Number <span class="arrow down"></span></th>
+                            <th>Star level <span class="arrow down"></span></th>
+                            <th>Skin <span class="arrow down"></span></th>
+                            <th>Element Type <span class="arrow down"></span></th>
+                            <th>Rarity <span class="arrow down"></span></th>
+                        </tr>
+
+                        <tr class = "highlightedRow">
+                            <td>02/02/2022 - 22.22</td>
+                            <td>Moon</td>
+                            <td>1</td>
+                            <td>#001</td>
+                            <td>1-star</td>
+                            <td>Normal</td>
+                            <td>Electric</td>
+                            <td>Common</td>
+                        </tr>
+
+                        <tr class = "nonHighlightedRow">
+                            <td>02/02/2022 - 22.22</td>
+                            <td>Saber</td>
+                            <td>2</td>
+                            <td>#004</td>
+                            <td>1-star</td>
+                            <td>Normal</td>
+                            <td>Water</td>
+                            <td>Common</td>
+                        </tr>
+                    </table>
+
+                    <span id = "addSearch">Add search</span>
+
+                    <div id = "beastInfoContainer">
+
+                        <div id = "beastImage">
+                            <img src="assets/001_Moon.png" id="beastSprite">
+                        </div>
+                        
+                        <div id = "beastInfoWrapper">
+
+                            <div id = "beastInfoUpper">
+                                <span id = "beastName">Moon</span>
+                        
+                                <div id = beastType>
+                                    <div id = "typeWrapper" class = "typeCutUpper">
+                                        <span id = "type" class = "typeCutLower">Electric</span>
+                                    </div>
+                                    <span id = "id">#001</span>
+                                </div>
+                                
+                            </div>
+                        
+                            <div id= "beastInfoLower">
+                                 <span id="info">A Moon slightly resembles a bunny. With strange ears on it's head it shocks everything around it</span>
+                        
+
+                                <div id = "statsWrap">
+                                    <div id = "statsTitle">
+                                        <span id="stars">Star Level</span>
+                                        <span id="skills">Basic Skills</span>
+                                    </div>
+                                    
+                                    <div id = "statsInfo">
+                                        <img src = "assets/basic_starLevel.png" id = "starPic">
+                                        <span class = "infoText">Triple Kick</span>
+                                        <span class = "infoText">Gravity Pull</span>
+                                        <span class = "infoText">Moon Shock</span>
+                                    </div>
+                                </div>
+
+                                <div id = "ultimateWrap" class = "ultimateCutUpper">
+                                    <div id = "ultimateText" class = "ultimateCutLower"> 
+                                        <span id = "ultimateTitle">Ultimate Skill</span>
+                                        <span id = "ultimateSkill">Mega Volt Crash</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    
+
+                </div>
+
+            </div> 
+        
+
+        </div>
+
+
+    </body>
+</html>
